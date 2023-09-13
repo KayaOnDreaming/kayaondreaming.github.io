@@ -2,50 +2,15 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme Simply Me</title>
+  <title>可堯夢遊中 - Kaya On Dreaming</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
-  }
-  .bg-2 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
-  }
-  .bg-3 { 
-    background-color: #2f2f2f; /* Black Gray */
-    color: #fff;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-    color: #1abc9c !important;
-  }
-  </style>
+  <link rel="stylesheet" href="styles/index.css">
+  <script src="scripts/index.js"></script>
 </head>
 <body>
 
@@ -53,37 +18,193 @@
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button title="Menu" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
       <a class="navbar-brand" href="#">
-        <span style="font-size:1em;">可堯夢遊中</span>
+        <span class="title-ch">可堯夢遊中</span>
         <br />
-        <span style="font-size:0.5em;">KayaOnDreaming</span>
+        <span class="title-en">KayaOnDreaming</span>
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHERE</a></li>
-        <li><a href="#">中/EN</a></li>
+        <li>
+          <a href="#bg-1">
+            <span class="title-ch">我是誰</span>
+            <br />
+            <span class="title-en">WHO</span>
+          </a>
+        </li>
+        <li>
+          <a href="#bg-2">
+            <span class="title-ch">我在哪裡</span>
+            <br />
+            <span class="title-en">WHERE</span>
+          </a>
+        </li>
+        <li>
+          <a href="#bg-3">
+            <span class="title-ch">我在幹嘛</span>
+            <br />
+            <span class="title-en">WHAT</span>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="container-fluid bg-1 text-center">
-  <h3>嗨，我是可堯！</h3>
-  <h3 class="margin">Hi, I'm Kaya!</h3>
+<div id="bg-1" class="container-fluid bg-1 text-center">
+  <h2>嗨，我是可堯！</h2>
+  <h4>我是個容易在夢境世界中暢遊的人，我想和你們分享我那些千奇百怪的夢。</h4>
+  <h3>Hi, I'm Kaya!</h3>
+  <h4 class="margin">I'm someone who easily roams in the world of dreams. <br/>I'd like to share my various and peculiar dreams with you.</h4>
   <img src="images/logo.png" class="img-responsive img-circle margin" style="display:inline;width:350px;height:350px;" alt="Logo">
 </div>
 
+<div id="bg-2" class="container-fluid bg-2 text-center">
+  <h2>可以在哪裡找到我呢？</h2>
+  <h3 class="margin">Where can I be found?</h3>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://www.youtube.com/@KayaOnDreaming" title="Go to Youtube (KayaOnDreaming)">
+        <div class="panel panel-info ">
+          <div class="panel-heading">
+            <p>
+              <img src="images/youtube.svg" class="img-svg-icon icon-youtube" alt="Youtube Icon">
+              Youtube
+            </p>
+          </div>
+          <div class="panel-body text-center">
+            <img src="images/panel-body-youtube.png" class="img-rounded" alt="Youtube Panel Body Image">
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.facebook.com/KayaOnDreaming" title="Go to Facebook (KayaOnDreaming)">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <p>
+              <img src="images/facebook.svg" class="img-svg-icon" alt="Facebook Icon">
+              Facebook
+            </p>
+          </div>
+          <div class="panel-body">
+            <img src="images/panel-body-facebook.png" class="img-rounded" alt="Facebook Panel Body Image">
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.instagram.com/kayaondreaming" title="Go to Instagram (kayaondreaming)">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <p>
+              <img src="images/instagram.svg" class="img-svg-icon" alt="Instagram Icon">
+              Instagram
+            </p>
+          </div>
+          <div class="panel-body">
+            <img src="images/panel-body-instagram.png" class="img-rounded" alt="Instagram Panel Body Image">
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://twitter.com/KayaOnDreaming" title="Go to Twitter (X) (KayaOnDreaming)">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <p>
+              <img src="images/twitter.svg" class="img-svg-icon" alt="Twitter Icon">
+              Twitter (X)
+            </p>
+          </div>
+          <div class="panel-body">
+            <img src="images/panel-body-twitter.png" class="img-rounded" alt="Twitter Panel Body Image">
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.plurk.com/kayaondreaming" title="Go to Plurk (kayaondreaming)">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <p>
+              <img src="images/p-square.svg" class="img-svg-icon" alt="Plurk Icon">
+              Plurk
+            </p>
+          </div>
+          <div class="panel-body">
+            <img src="images/panel-body-plurk.png" class="img-rounded" alt="Plurk Panel Body Image">
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://github.com/KayaOnDreaming" title="Go to Github (KayaOnDreaming)">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <p>
+              <img src="images/github.svg" class="img-svg-icon" alt="Github Icon">
+              Github
+            </p>
+          </div>
+          <div class="panel-body">
+            <img src="images/panel-body-github.png" class="img-rounded" alt="Github Panel Body Image">
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="bg-3" class="container-fluid bg-3 text-center">
+  <h2>我都在做些什麼呢？</h2>
+  <h3 class="margin">What am I doing?</h3>
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="list-group text-left">
+        <a href="javascript:;" class="list-group-item">
+          <h4 class="list-group-item-heading">
+            <span class="glyphicon glyphicon-star"></span> 
+            [主要] 記錄夢境，分享故事
+          </h4>
+          <p class="list-group-item-text">
+            <span class="glyphicon glyphicon-star-empty"></span> 
+            [Main] Documented dreams, and share them. 
+          </p>
+        </a>
+        <a href="javascript:;" class="list-group-item">
+          <h4 class="list-group-item-heading">
+            <span class="glyphicon glyphicon-star"></span> 
+            [其他] 還在規劃中……
+          </h4>
+          <p class="list-group-item-text">
+            <span class="glyphicon glyphicon-star-empty"></span> 
+            [Other] In the planning……
+          </p>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+
 <!-- Footer -->
-<footer class="container-fluid bg-3 text-center">
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+<footer class="container-fluid bg-2 text-center">
+  <p>可堯夢遊中 © Kaya On Drewming</p> 
 </footer>
+
+<a id="topButton" href="#">
+  <span class="glyphicon glyphicon-menu-up"></span>
+</a>
 
 </body>
 </html>
